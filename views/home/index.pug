@@ -1,0 +1,265 @@
+extends ../layouts/frontEnd.pug
+block content
+    section#intro.clearfix
+        .container
+            .intro-img
+                img.img-fluid(src='img/intro-img.svg' alt='')
+            .intro-info
+                h2 We provide <br>
+                    span solutions 
+                    <br> for your business!
+                div
+                    a.btn-get-started.scrollto(href='#about') Get Started
+                    a.btn-services.scrollto(href='#services') Our Services
+    main#main
+        section#about
+            .container
+                header.section-header
+                    h3 About Us
+                    p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                .row.about-container
+                    .col-lg-6.content.order-lg-1.order-2
+                        p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        .icon-box.wow.fadeInUp
+                            .icon
+                                i.fa.fa-shopping-bag
+                            h4.title
+                                a(href='') Eiusmod Tempor
+                            p.description  Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi
+                        .icon-box.wow.fadeInUp(data-wow-delay='0.2s')
+                            .icon
+                                i.fa.fa-photo
+                            h4.title
+                                a(href='') Magni Dolores
+                            p.description Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                        .icon-box.wow.fadeInUp(data-wow-delay='0.4s')
+                            .icon
+                                i.fa.fa-bar-chart
+                            h4.title
+                                a(href='') Dolor Sitema
+                            p.description Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata
+                    .col-lg-6.background.order-lg-2.order-1.wow.fadeInUp
+                        img.img-fluid(src='img/about-img.svg' alt='')
+                .row.about-extra
+                    .col-lg-6.wow.fadeInUp
+                        img.img-fluid(src='img/about-extra-1.svg' alt='')
+                    .col-lg-6.wow.fadeInUp.pt-5.pt-lg-0
+                        h4 Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.
+                        p Ipsum in aspernatur ut possimus sint. Quia omnis est occaecati possimus ea. Quas molestiae perspiciatis occaecati qui rerum. Deleniti quod porro sed quisquam saepe. Numquam mollitia recusandae non ad at et a.
+                        p Ad vitae recusandae odit possimus. Quaerat cum ipsum corrupti. Odit qui asperiores ea corporis deserunt veritatis quidem expedita perferendis. Qui rerum eligendi ex doloribus quia sit. Porro rerum eum eum.
+                .row.about-extra
+                    .col-lg-6.wow.fadeInUp.order-1.order-lg-2
+                        img.img-fluid(src='img/about-extra-2.svg' alt='')
+                    .col-lg-6.wow.fadeInUp.pt-4.pt-lg-0.order-2.order-lg-1
+                        h4 Neque saepe temporibus repellat ea ipsum et. Id vel et quia tempora facere reprehenderit.
+                        p Delectus alias ut incidunt delectus nam placeat in consequatur. Sed cupiditate quia ea quis. Voluptas nemo qui aut distinctio. Cumque fugit earum est quam officiis numquam. Ducimus corporis autem at blanditiis beatae incidunt sunt.
+                        p Voluptas saepe natus quidem blanditiis. Non sunt impedit voluptas mollitia beatae. Qui esse molestias. Laudantium libero nisi vitae debitis. Dolorem cupiditate est perferendis iusto.
+                        p Eum quia in. Magni quas ipsum a. Quis ex voluptatem inventore sint quia modi. Numquam est aut fuga mollitia exercitationem nam accusantium provident quia.
+        section#services.section-bg
+            .container
+                header.section-header
+                    h3 Services
+                    p Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant vituperatoribus.
+                .row
+                    .col-md-6.col-lg-5.offset-lg-1.wow.bounceInUp(data-wow-duration='1.4s')
+                        .box
+                            .icon
+                                i.ion-ios-analytics-outline(style='color: #ff689b;')
+                            h4.title
+                                a(href='') Lorem Ipsum
+                            p.description Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident
+                    .col-md-6.col-lg-5.wow.bounceInUp(data-wow-duration='1.4s')
+                        .box
+                            .icon
+                                i.ion-ios-bookmarks-outline(style='color: #e9bf06;')
+                            h4.title
+                                a(href='') Dolor Sitema
+                            p.description Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata
+                    .col-md-6.col-lg-5.offset-lg-1.wow.bounceInUp(data-wow-delay='0.1s' data-wow-duration='1.4s')
+                        .box
+                            .icon
+                                i.ion-ios-paper-outline(style='color: #3fcdc7;')
+                            h4.title
+                                a(href='') Sed ut perspiciatis
+                            p.description Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur
+                    .col-md-6.col-lg-5.wow.bounceInUp(data-wow-delay='0.1s' data-wow-duration='1.4s')
+                        .box
+                            .icon
+                                i.ion-ios-speedometer-outline(style='color:#41cf2e;')
+                            h4.title
+                                a(href='') Magni Dolores
+                            p.description Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                    .col-md-6.col-lg-5.offset-lg-1.wow.bounceInUp(data-wow-delay='0.2s' data-wow-duration='1.4s')
+                        .box
+                            .icon
+                                i.ion-ios-world-outline(style='color: #d6ff22;')
+                            h4.title
+                                a(href='') Nemo Enim
+                            p.description At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque
+                    .col-md-6.col-lg-5.wow.bounceInUp(data-wow-delay='0.2s' data-wow-duration='1.4s')
+                        .box
+                            .icon
+                                i.ion-ios-clock-outline(style='color: #4680ff;')
+                            h4.title
+                                a(href='') Eiusmod Tempor
+                            p.description Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi
+        section#why-us.wow.fadeIn
+            .container
+                header.section-header
+                    h3 Why choose us?
+                    p Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant vituperatoribus.
+                .row.row-eq-height.justify-content-center
+                    .col-lg-4.mb-4
+                        .card.wow.bounceInUp
+                            i.fa.fa-diamond
+                            .card-body
+                                h5.card-title Corporis dolorem
+                                p.card-text  Deleniti optio et nisi dolorem debitis. Aliquam nobis est temporibus sunt ab inventore officiis aut voluptatibus.
+                                a.readmore(href='#') Read more 
+                    .col-lg-4.mb-4
+                        .card.wow.bounceInUp
+                            i.fa.fa-language
+                            .card-body
+                                h5.card-title Voluptates dolores
+                                p.card-text Voluptates nihil et quis omnis et eaque omnis sint aut. Ducimus dolorum aspernatur.
+                                a.readmore(href='#') Read more 
+                    .col-lg-4.mb-4
+                        .card.wow.bounceInUp
+                            i.fa.fa-object-group
+                            .card-body
+                                h5.card-title Eum ut aspernatur
+                                p.card-text Autem quod nesciunt eos ea aut amet laboriosam ab. Eos quis porro in non nemo ex.
+                                a.readmore(href='#') Read more 
+                .row.counters
+                    .col-lg-3.col-6.text-center
+                        span(data-toggle='counter-up') 274
+                        p Clients
+                    .col-lg-3.col-6.text-center
+                        span(data-toggle='counter-up') 421
+                        p Projects
+                    .col-lg-3.col-6.text-center
+                        span(data-toggle='counter-up') 1,364
+                        p Hours Of Support
+                    .col-lg-3.col-6.text-center
+                        span(data-toggle='counter-up') 18
+                        p Hard Workers
+        section#portfolio.clearfix
+            .container
+                header.section-header
+                    h3.section-title Our Portfolio
+                .row
+                    .col-lg-12
+                        ul#portfolio-flters
+                            li.filter-active(data-filter='*') All
+                            li(data-filter='.filter-app') App
+                            li(data-filter='.filter-card') Card
+                            li(data-filter='.filter-web') Web
+                .row.portfolio-container
+                    .col-lg-4.col-md-6.portfolio-item.filter-app
+                        .portfolio-wrap
+                            img.img-fluid(src='img/portfolio/app1.jpg' alt='')
+                            .portfolio-info
+                                h4
+                                    a(href='#') App 1
+                                p App
+                                div
+                                    a.link-preview(href='img/portfolio/app1.jpg' data-lightbox='portfolio' data-title='App 1' title='Preview')
+                                        i.ion.ion-eye
+                                    a.link-details(href='#' title='More Details')
+                                        i.ion.ion-android-open
+                    .col-lg-4.col-md-6.portfolio-item.filter-web(data-wow-delay='0.1s')
+                        .portfolio-wrap
+                            img.img-fluid(src='img/portfolio/web3.jpg' alt='')
+                            .portfolio-info
+                                h4
+                                    a(href='#') Web 3
+                                p Web
+                                div
+                                    a.link-preview(href='img/portfolio/web3.jpg' data-lightbox='portfolio' data-title='Web 3' title='Preview')
+                                        i.ion.ion-eye
+                                    a.link-details(href='#' title='More Details')
+                                        i.ion.ion-android-open
+                    .col-lg-4.col-md-6.portfolio-item.filter-app(data-wow-delay='0.2s')
+                        .portfolio-wrap
+                            img.img-fluid(src='img/portfolio/app2.jpg' alt='')
+                            .portfolio-info
+                                h4
+                                    a(href='#') App 2
+                                p App
+                                div
+                                    a.link-preview(href='img/portfolio/app2.jpg' data-lightbox='portfolio' data-title='App 2' title='Preview')
+                                        i.ion.ion-eye
+                                    a.link-details(href='#' title='More Details')
+                                        i.ion.ion-android-open
+                    .col-lg-4.col-md-6.portfolio-item.filter-card
+                        .portfolio-wrap
+                            img.img-fluid(src='img/portfolio/card2.jpg' alt='')
+                            .portfolio-info
+                                h4
+                                    a(href='#') Card 2
+                                p Card
+                                div
+                                    a.link-preview(href='img/portfolio/card2.jpg' data-lightbox='portfolio' data-title='Card 2' title='Preview')
+                                        i.ion.ion-eye
+                                    a.link-details(href='#' title='More Details')
+                                        i.ion.ion-android-open
+                    .col-lg-4.col-md-6.portfolio-item.filter-web(data-wow-delay='0.1s')
+                        .portfolio-wrap
+                            img.img-fluid(src='img/portfolio/web2.jpg' alt='')
+                            .portfolio-info
+                                h4
+                                    a(href='#') Web 2
+                                p Web
+                                div
+                                    a.link-preview(href='img/portfolio/web2.jpg' data-lightbox='portfolio' data-title='Web 2' title='Preview')
+                                        i.ion.ion-eye
+                                    a.link-details(href='#' title='More Details')
+                                        i.ion.ion-android-open
+                    .col-lg-4.col-md-6.portfolio-item.filter-app(data-wow-delay='0.2s')
+                        .portfolio-wrap
+                            img.img-fluid(src='img/portfolio/app3.jpg' alt='')
+                            .portfolio-info
+                                h4
+                                    a(href='#') App 3
+                                p App
+                                div
+                                    a.link-preview(href='img/portfolio/app3.jpg' data-lightbox='portfolio' data-title='App 3' title='Preview')
+                                        i.ion.ion-eye
+                                    a.link-details(href='#' title='More Details')
+                                        i.ion.ion-android-open
+                    .col-lg-4.col-md-6.portfolio-item.filter-card
+                        .portfolio-wrap
+                            img.img-fluid(src='img/portfolio/card1.jpg' alt='')
+                            .portfolio-info
+                                h4
+                                    a(href='#') Card 1
+                                p Card
+                                div
+                                    a.link-preview(href='img/portfolio/card1.jpg' data-lightbox='portfolio' data-title='Card 1' title='Preview')
+                                        i.ion.ion-eye
+                                    a.link-details(href='#' title='More Details')
+                                        i.ion.ion-android-open
+                    .col-lg-4.col-md-6.portfolio-item.filter-card(data-wow-delay='0.1s')
+                        .portfolio-wrap
+                            img.img-fluid(src='img/portfolio/card3.jpg' alt='')
+                            .portfolio-info
+                                h4
+                                    a(href='#') Card 3
+                                p Card
+                                div
+                                    a.link-preview(href='img/portfolio/card3.jpg' data-lightbox='portfolio' data-title='Card 3' title='Preview')
+                                        i.ion.ion-eye
+                                    a.link-details(href='#' title='More Details')
+                                        i.ion.ion-android-open
+                    .col-lg-4.col-md-6.portfolio-item.filter-web(data-wow-delay='0.2s')
+                        .portfolio-wrap
+                            img.img-fluid(src='img/portfolio/web1.jpg' alt='')
+                            .portfolio-info
+                                h4
+                                    a(href='#') Web 1
+                                p Web
+                                div
+                                    a.link-preview(href='img/portfolio/web1.jpg' data-lightbox='portfolio' data-title='Web 1' title='Preview')
+                                        i.ion.ion-eye
+                                    a.link-details(href='#' title='More Details')
+                                        i.ion.ion-android-open
